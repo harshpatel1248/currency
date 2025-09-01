@@ -14,7 +14,7 @@ function useCurrencyRates(currency = "USD") {
       });
   }, [currency]);
 
-  return { rates };
+  return rates ;
 }
 
 export default useCurrencyRates;

@@ -8,11 +8,14 @@ function Main() {
     const [toCurrency, setToCurrency] = useState("INR");
     const [amount, setAmount] = useState(1);
 
-    const { rates } = useCurrencyRates(fromCurrency);
+    const rates = useCurrencyRates(fromCurrency);
+
     const currencyList = Object.keys(rates || {});
     const rate = rates[toCurrency];
-    const convertedAmount = rate ? (amount * rate).toFixed(2) : "";
 
+
+    const convertedAmount = rate ? (amount * rate).toFixed(2) : "";
+    <i class="fa fa-amazon" aria-hidden="true"></i>
 
     return (
         <div className="mainCountainer">
