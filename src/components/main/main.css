@@ -1,0 +1,77 @@
+.mainCountainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    width: 95%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.mainCountainer #select {
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    padding: 3px 10px;
+    font-weight: 500;
+    background: linear-gradient(120deg, #4f0059, #a6005b95);
+    color: white;
+}
+.amountCountainer {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    align-items: center !important;
+    background: white;
+    justify-content: space-between !important;
+    width: 100%;
+}
+.amountCountainer * p,h2,h3 {
+    background:white !important;
+    width: 100%;
+    color: black;
+}
+
+.amount p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.amount h3 {
+    color: #9400d9;
+    padding-bottom: 5px;
+}
+
+.covertAmount {
+    text-align: right;
+}
+
+.covertAmount  p {
+    text-align: right !important;
+    font-size: 18px;
+}
+
+.covertAmount h2 {
+    font-size: 25px;
+    padding-top: 10px;
+    color: #9400d9;
+}
+
+option {
+    color: black;
+}
+
+.amount input {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding: 0px 10px;
+    border-radius: 10px;
+}

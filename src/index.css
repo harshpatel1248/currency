@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  background: linear-gradient(120deg, #4f0059, #a6005b95);
+}
+
+#root {
+  width: 500px;
+  margin: 10px auto;
+  padding: 20px 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.541);
+  background: linear-gradient(120deg, #4f0059, #a6005b95);
+}
